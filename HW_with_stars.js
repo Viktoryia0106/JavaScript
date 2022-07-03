@@ -1,8 +1,10 @@
 // 1 part
-const age_2 = 18;
-const age_3 = 60;
+ 
+let age_2 = 18;
+let age_3 = 60;
 
-const checkAge = function(age) {
+
+let checkAge = function(age)     {
 
 if (age < age_2) {
    console.log("You don’t have access cause your age is" + age + "It’s less then")
@@ -18,9 +20,14 @@ checkAge(17)
 checkAge(18)    
 checkAge(61)
 
+
 // 2 part
- {
-   age = Number(age)
+
+const age_2 = 18
+const age_3 = 60
+
+const checkAge = function(age) {
+    age = Number(age)
    console.log(typeof(age))
 if(age) { 
     if (age < age_2) {
@@ -43,9 +50,13 @@ checkAge("33")
 checkAge('0')
 checkAge('null')
 
-// 3 part
- {
-   if(age && !isNaN(age)) {
+
+// // 3 part
+const age_2 = 18;
+const age_3 = 60;
+
+const checkAge = function(age) {
+    if(age && !isNaN(age)) {
      if (age < age_2) {
         console.log("You don’t have access cause your age is" + age + "It’s less then");
      } else if (age >= age_2 && age < age_3) {
