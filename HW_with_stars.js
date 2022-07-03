@@ -3,7 +3,6 @@
 let age_2 = 18;
 let age_3 = 60;
 
-
 let checkAge = function(age)     {
 
 if (age < age_2) {
